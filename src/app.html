@@ -1,0 +1,11 @@
+<template>
+	<lightning-progress-indicator type="base" variant="base" current-step={currentStep}>
+		<template for:each={choices} for:item="step">
+			<lightning-progress-step key={step} label={step} value={step} onclick={onClickStep}>
+			</lightning-progress-step>
+		</template>
+	</lightning-progress-indicator>
+	<lightning-input type="range" min="1" max="25" step="1" value={stepCount} onchange={updateSize} label="Options">
+	</lightning-input>
+	Options: {stepCount}
+</template>

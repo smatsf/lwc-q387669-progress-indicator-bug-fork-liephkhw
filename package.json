@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/smatsf.lwc-q387669-progress-indicator-bug-fork-liephkhw",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve oZNQt5czs3kXsYaNgQGu --open"
+  }
+}
